@@ -16,6 +16,7 @@ telescope.setup {
       "node_modules",
       ".git",
       "__pycache__",
+      "vendor",
     },
 
     mappings = {
