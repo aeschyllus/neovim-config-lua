@@ -12,5 +12,6 @@ null_ls.setup({
 	debug = false,
 	sources = {
 		formatting.prettierd,
+    formatting.csharpier,
 	},
 })

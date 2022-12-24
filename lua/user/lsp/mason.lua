@@ -1,8 +1,10 @@
 local servers = {
   "tsserver",
   "intelephense",
-  "omnisharp",
-  "html",
+  -- "omnisharp",
+  -- "html",
+  "csharp_ls",
+  "cssls"
 }
 
 local settings = {
