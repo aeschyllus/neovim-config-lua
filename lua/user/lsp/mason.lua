@@ -1,9 +1,9 @@
 local servers = {
   "tsserver",
   "intelephense",
-  -- "omnisharp",
+  "omnisharp",
   -- "html",
-  "csharp_ls",
+  -- "csharp_ls",
   "cssls"
 }
 
