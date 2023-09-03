@@ -12,6 +12,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-  { import = "aeschyllus.plugins" },
-  { import = "aeschyllus.plugins.lsp" },
+	{ import = "aeschyllus.plugins" },
+	{ import = "aeschyllus.plugins.lsp" },
 })
