@@ -11,5 +11,10 @@ return {
 			"<cmd>Telescope find_files<cr>",
 			desc = "Find files",
 		},
+		{
+			"<leader>fg",
+			"<cmd>Telescope live_grep<cr>",
+			desc = "Find text",
+		},
 	},
 }
