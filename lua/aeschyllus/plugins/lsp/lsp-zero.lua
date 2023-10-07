@@ -23,12 +23,12 @@ return {
 
 		lsp.ensure_installed({
 			"lua_ls",
-			"volar",
+			-- "volar",
 		})
 
-		require("lspconfig").volar.setup({
-			filetypes = { "vue", "typescript", "javascript" },
-		})
+		-- require("lspconfig").volar.setup({
+		-- 	filetypes = { "vue", "typescript", "javascript" },
+		-- })
 
 		lsp.setup()
 	end,
