@@ -3,6 +3,7 @@ return {
 	version = "*",
 	config = function()
 		require("toggleterm").setup({
+			size = 20,
 			open_mapping = [[<a-n>]],
 		})
 	end,
