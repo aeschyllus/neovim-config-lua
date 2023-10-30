@@ -43,6 +43,9 @@ keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 -- Save file
 keymap("n", "<leader>w", "<cmd>w<cr>", opts)
 
+-- Split view
+keymap("n", "<leader>v", ":vsplit<cr>", opts)
+
 -- Insert --
 -- Press jk fast to exit insert mode
 keymap("i", "jk", "<ESC>", opts)
