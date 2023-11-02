@@ -1,10 +1,20 @@
 return {
 	"akinsho/toggleterm.nvim",
 	version = "*",
+	keys = {
+		{
+			"<a-n>",
+			"<cmd>ToggleTerm direction=horizontal size=20<cr>",
+			desc = "Toggle horizontal terminal",
+		},
+		{
+
+			"<a-h>",
+			"<cmd>ToggleTerm direction=float<cr>",
+			desc = "Toggle floating terminal",
+		},
+	},
 	config = function()
-		require("toggleterm").setup({
-			size = 20,
-			open_mapping = [[<a-n>]],
-		})
+		require("toggleterm").setup()
 	end,
 }
