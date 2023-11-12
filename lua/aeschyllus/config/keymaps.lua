@@ -75,4 +75,4 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 -- Escape terminal
--- keymap("t", "jk", [[<c-\><c-n>]], opts)
+keymap("t", "<c-[>", [[<c-\><c-n>]], opts)
