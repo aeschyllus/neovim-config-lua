@@ -23,12 +23,8 @@ return {
 
 		lsp.ensure_installed({
 			"lua_ls",
-			-- "volar",
+      "rust_analyzer",
 		})
-
-		-- require("lspconfig").volar.setup({
-		-- 	filetypes = { "vue", "typescript", "javascript" },
-		-- })
 
 		lsp.setup()
 	end,
