@@ -19,6 +19,12 @@ return {
 				},
 			},
 		},
+		highlights = {
+			fill = {
+				fg = "#23262e",
+				bg = "#23262e",
+			},
+		},
 	},
 	config = function(_, opts)
 		require("bufferline").setup(opts)
