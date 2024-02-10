@@ -23,7 +23,8 @@ return {
 
 		lsp.ensure_installed({
 			"lua_ls",
-      "rust_analyzer",
+			"rust_analyzer",
+			"tsserver",
 		})
 
 		lsp.setup()
