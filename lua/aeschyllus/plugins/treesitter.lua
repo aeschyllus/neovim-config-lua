@@ -28,6 +28,21 @@ return {
 				"vimdoc",
 				"yaml",
 			},
+			context_commentstring = {
+				config = {
+					javascript = {
+						__default = "// %s",
+						jsx_element = "{/* %s */}",
+						jsx_fragment = "{/* %s */}",
+						jsx_attribute = "// %s",
+						comment = "// %s",
+					},
+					typescript = {
+						__default = "// %s",
+						__multiline = "/* %s */",
+					},
+				},
+			},
 			-- autotag = {
 			-- 	enable = true,
 			-- 	enable_rename = true,
