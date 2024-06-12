@@ -76,3 +76,8 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 -- Escape terminal
 keymap("t", "<c-[>", [[<c-\><c-n>]], opts)
+
+-- Format buffer
+vim.keymap.set("n", "<leader>pr", function()
+	vim.lsp.buf.format({ async = true })
+end, opts)
