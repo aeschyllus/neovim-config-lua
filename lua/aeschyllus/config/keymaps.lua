@@ -46,6 +46,14 @@ keymap("n", "<leader>w", "<cmd>w<cr>", opts)
 -- Split view
 keymap("n", "<leader>v", ":vsplit<cr>", opts)
 
+-- Format buffer
+vim.keymap.set("n", "<leader>pr", function()
+	vim.lsp.buf.format({ async = true })
+end, opts)
+
+-- Show git blame
+keymap("n", "<leader>gb", ":BlameToggle window<CR>", opts)
+
 -- Insert --
 -- Press jk fast to exit insert mode
 keymap("i", "jk", "<ESC>", opts)
@@ -76,8 +84,3 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 -- Escape terminal
 keymap("t", "<c-[>", [[<c-\><c-n>]], opts)
-
--- Format buffer
-vim.keymap.set("n", "<leader>pr", function()
-	vim.lsp.buf.format({ async = true })
-end, opts)
