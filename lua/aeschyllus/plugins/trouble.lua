@@ -8,6 +8,11 @@ return {
 			"<cmd>Trouble diagnostics toggle<cr>",
 			desc = "Diagnostics (Trouble)",
 		},
+		{
+			"<leader>d",
+			vim.diagnostic.open_float,
+			desc = "Show line diagnostics",
+		},
 		-- {
 		-- 	"<leader>xX",
 		-- 	"<cmd>Trouble diagnostics toggle filter.buf=0<cr>",
