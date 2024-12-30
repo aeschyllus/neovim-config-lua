@@ -7,4 +7,12 @@ return {
 			vim.cmd("colorscheme everforest")
 		end,
 	},
+	-- {
+	-- 	"nobbmaestro/nvim-andromeda",
+	-- 	dependencies = { "tjdevries/colorbuddy.nvim" },
+	-- 	priority = 1000, -- load first before all other plugins
+	-- 	config = function()
+	-- 		require("andromeda").setup()
+	-- 	end,
+	-- },
 }
