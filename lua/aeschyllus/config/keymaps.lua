@@ -25,6 +25,12 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
+-- Tmux panes navigation
+keymap("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>", opts)
+keymap("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>", opts)
+keymap("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>", opts)
+keymap("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>", opts)
+
 -- Resize with arrows
 -- keymap("n", "<C-Up>", ":resize -2<CR>", opts)
 -- keymap("n", "<C-Down>", ":resize +2<CR>", opts)
